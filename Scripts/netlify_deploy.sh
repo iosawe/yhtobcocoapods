@@ -10,4 +10,6 @@ bundle exec ruby Scripts/create_pods_and_versions_index.rb _site
 #cp Scripts/netlify_redirects.txt _site/_redirects
 #我加的
 cp -r Specs/* _site/Specs/
+cp testme.html _site/testme.html
+
 cp ./*.yml _site/
